@@ -5,7 +5,7 @@ import { Product } from "../models/product.model";
 
 @Injectable()
 export class ProductsService {
-  private URL_PATH: string = "http://localhost:3000/products"
+  private URL_PATH: string = "https://commerce-server-app.herokuapp.com/products"
 
 
   constructor(private http: HttpClient) { }

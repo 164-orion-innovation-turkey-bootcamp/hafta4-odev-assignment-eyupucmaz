@@ -7,11 +7,10 @@ import { User } from '../models/user.model';
   providedIn: 'root'
 })
 export class UserService {
-
   checkUser = new BehaviorSubject<boolean>(false);
-  private PATH: string = "http://localhost:3000/users";
+  private PATH: string = "https://commerce-server-app.herokuapp.com/users";
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   getUsers(): Observable<User[]> {
     return this.http.get<User[]>(this.PATH);

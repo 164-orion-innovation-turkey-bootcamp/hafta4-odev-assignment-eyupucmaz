@@ -7,7 +7,7 @@ import { Category } from "../models/category.model";
 export class CategoryService {
 
   categories!: Category[];
-  URL_PATH: string = "http://localhost:3000/categories"
+  URL_PATH: string = "https://commerce-server-app.herokuapp.com/categories"
   constructor(private http: HttpClient) {
 
   }
