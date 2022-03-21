@@ -2,6 +2,7 @@
 
 Ürün satışının, kullanıcı kaydının ve girişinin yapıldığı, web uygulaması geliştirilecek.
 
+<img src="https://github.com/164-orion-innovation-turkey-bootcamp/hafta4-odev-assignment-eyupucmaz/blob/main/Screen-Recording-2022-03-21-at-22.39.56.gif?raw=true" alt="" style="height: 650px; width:1000px;"/>
 
 <strong>Fonksiyoneliteler: </strong>
 
