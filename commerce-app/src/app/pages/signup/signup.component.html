@@ -1,0 +1,85 @@
+<div class="container-lg min-vh-100 bg-light overflow-hidden">
+  <div class="row p-5 h-100 d-flex justify-content-center align-items-center">
+    <div class="col-md-6">
+      <h1 class="h1 mb-5">Sign Up</h1>
+      <form [formGroup]="signupForm" (submit)="signup()">
+        <div class="form-outline mb-4">
+          <label class="form-label" for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            formControlName="name"
+            class="form-control"
+            [ngClass]="{
+              'is-valid': isNameValid(),
+              'is-invalid': isNameValid() === false
+            }"
+          />
+          <div class="valid-feedback">
+            Welcome {{ signupForm.get("name")?.value }}
+          </div>
+          <div class="invalid-feedback">You must have name 😉</div>
+        </div>
+        <div class="form-outline mb-4">
+          <label class="form-label" for="lastname">Lastname</label>
+          <input
+            type="text"
+            id="lastname"
+            formControlName="lastname"
+            class="form-control"
+            [ngClass]="{
+              'is-valid': isLastnameValid(),
+              'is-invalid': isLastnameValid() === false
+            }"
+          />
+          <div class="valid-feedback">
+            Doing great Mr./Ms. {{ signupForm.get("lastname")?.value }}
+          </div>
+          <div class="invalid-feedback">We should know each other 🤔</div>
+        </div>
+        <div class="form-outline mb-4">
+          <label class="form-label" for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control"
+            [ngClass]="{
+              'is-valid': isEmailValid(),
+              'is-invalid': isEmailValid() === false
+            }"
+          />
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Please check your email!</div>
+        </div>
+
+        <div class="form-outline mb-4">
+          <label class="form-label" for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            formControlName="password"
+            class="form-control"
+            [ngClass]="{
+              'is-valid': isPasswordValid(),
+              'is-invalid': isPasswordValid() === false
+            }"
+          />
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Please check your password!</div>
+        </div>
+        <button type="submit" class="btn btn-primary signup-btn col-12">
+          Sign Up
+        </button>
+      </form>
+    </div>
+    <!-- IMAGE SECTION-->
+    <div class="col-md-6 d-flex justify-content-center">
+      <img
+        class="img-fluid login-img"
+        src="../../../assets/singupimg.svg"
+        alt=""
+      />
+    </div>
+  </div>
+</div>

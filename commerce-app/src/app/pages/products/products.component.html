@@ -1,0 +1,29 @@
+<div class="container min-vh-100 pt-5">
+  <ul class="nav nav-tabs mb-2">
+    <li class="nav-item">
+      <a
+        class="nav-link text-dark"
+        [ngClass]="{ active: activeCategory === 0 }"
+        (click)="showAll()"
+        aria-current="page"
+        >All Products</a
+      >
+    </li>
+    <li class="nav-item" *ngFor="let category of categories">
+      <a
+        class="nav-link text-dark"
+        [ngClass]="{ active: activeCategory === category.id }"
+        (click)="filterBy(category.id)"
+        >{{ category.name | titlecase }}</a
+      >
+    </li>
+  </ul>
+  <div class="row products ">
+    <!-- <h1 *ngIf="!productNotfount">Products not found</h1> -->
+    <app-card
+      class="col-md-4 mb-3"
+      *ngFor="let item of filteredList"
+      [products]="item"
+    ></app-card>
+  </div>
+</div>

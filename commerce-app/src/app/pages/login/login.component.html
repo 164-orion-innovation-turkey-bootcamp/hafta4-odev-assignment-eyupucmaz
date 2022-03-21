@@ -1,0 +1,63 @@
+<div class="container-lg min-vh-100 bg-light overflow-hidden">
+  <div class="row p-5 h-100 d-flex justify-content-center align-items-center">
+    <div class="col-md-7">
+      <h1 class="h1 mb-5">Login</h1>
+      <form [formGroup]="loginForm" (submit)="loginSubmit()">
+        <div class="form-outline mb-4">
+          <label class="form-label" for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control"
+            [ngClass]="{
+              'is-valid': isEmailValid(),
+              'is-invalid': isEmailValid() === false
+            }"
+          />
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Please check your email!</div>
+        </div>
+
+        <div class="form-outline mb-4">
+          <label class="form-label" for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            formControlName="password"
+            class="form-control"
+            [ngClass]="{
+              'is-valid': isPasswordValid(),
+              'is-invalid': isPasswordValid() === false
+            }"
+          />
+          <div class="valid-feedback">Looks good!</div>
+          <div class="invalid-feedback">Please check your password!</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <button type="submit" class="btn btn-primary login-btn col-12">
+              Login
+            </button>
+          </div>
+          <div class="col-sm-8">
+            <div class=" fs-5">
+              Don't have an account?
+              <span [routerLink]="['/signup']" class="text-primary signup-link"
+                >Create One!</span
+              >
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- IMAGE SECTION-->
+    <div class="col-md-5 d-flex justify-content-center">
+      <img
+        class="img-fluid login-img"
+        src="../../../assets/loginimg.svg"
+        alt=""
+      />
+    </div>
+  </div>
+</div>

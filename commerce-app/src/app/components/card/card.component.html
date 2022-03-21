@@ -1,0 +1,19 @@
+<div class="container bg-white pb-3">
+  <div class="row">
+    <div class="col-12">
+      <img
+        [routerLink]="['/product', products.id]"
+        src="{{ products.image_0 }}"
+        class="img-fluid pointer"
+      />
+    </div>
+    <div class="col-12">
+      <h4 class="pointer" [routerLink]="['/product', products.id]">
+        {{ products.name }}
+      </h4>
+      <span class="text-danger fs-5">{{ products.price | currency }}</span>
+      <p class="">{{ products.desc }}</p>
+      <button [routerLink]="['/product', products.id]" class="btn btn-outline-danger w-100">View Details</button>
+    </div>
+  </div>
+</div>

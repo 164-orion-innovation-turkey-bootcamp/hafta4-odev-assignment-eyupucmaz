@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": 1647605603114,
+      "name": "eyup",
+      "lastname": "Ucmaz",
+      "email": "eyup@mail.com",
+      "password": "Admin.1",
+      "cart": []
+    },
+    {
+      "id": 1647610849008,
+      "name": "asd",
+      "lastname": "asd",
+      "email": "asd@asd.asd",
+      "password": "asdasd",
+      "cart": []
+    },
+    {
+      "id": 1647611148936,
+      "name": "dsa",
+      "lastname": "dsa",
+      "email": "dsa@dsa.dsa",
+      "password": "dsadsa",
+      "cart": []
+    },
+    {
+      "id": 1647611286393,
+      "name": "john",
+      "lastname": "doe",
+      "email": "john@doe.com",
+      "password": "asdasd",
+      "cart": []
+    },
+    {
+      "id": 1647611422639,
+      "name": "admin",
+      "lastname": "admin",
+      "email": "admin@admin.com",
+      "password": "admin1",
+      "cart": []
+    },
+    {
+      "id": 1647891346303,
+      "name": "test",
+      "lastname": "test",
+      "email": "test@test.com",
+      "password": "testtest",
+      "cart": []
+    },
+    {
+      "id": 1647891642926,
+      "name": "test1",
+      "lastname": "test1",
+      "email": "test1@test.com",
+      "password": "testtest",
+      "cart": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Logitech MX Keys",
+      "desc": "Advanced Wireless Illuminated Keyboard",
+      "image_0": "https://resource.logitech.com/w_1500,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-keys/gallery/mx-keys-black-gallery-1.png",
+      "image_1": "https://resource.logitech.com/w_2000,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-keys/gallery/mx-keys-black-gallery-2.png?v=1",
+      "image_2": "https://resource.logitech.com/w_2000,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-keys/gallery/mx-keys-black-gallery-5.png?v=1",
+      "price": 99,
+      "detail": "Perfect stroke keys: Spherically dished keys match the shape of your fingertips, offering satisfying feedback with every tap Comfort and stability: Type with confidence on a keyboard crafted for comfort, stability, and precision Smart illumination hand proximity detection and automatic backlighting. Flow cross computer control: Type on multiple computers in 1 fluid workflow ",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Apple Macbook Air",
+      "desc": "Apple M1 Chip with 8-Core CPU and 7-Core GPU 256GB Storage",
+      "image_0": "https://productimages.hepsiburada.net/s/49/1000/10983949860914.jpg/format:webp",
+      "image_1": "https://productimages.hepsiburada.net/s/49/1000/10983949893682.jpg/format:webp",
+      "image_2": "https://productimages.hepsiburada.net/s/49/1100/10983949926450.jpg/format:webp",
+      "price": 999,
+      "detail": "Our thinnest, lightest notebook, completely transformed by the Apple M1 chip. CPU speeds up to 3.5x faster. GPU speeds up to 5x faster. An advanced Neural Engine for up to 9x faster machine learning. The longest battery life ever in a MacBook Air. And a silent, fanless design. This much power has never been this ready to go. It’s here. Our first chip designed specifically for Mac. Packed with an astonishing 16 billion transistors, the Apple M1 system on a chip (SoC) integrates the CPU, GPU, Neural Engine, I/O, and so much more onto a single tiny chip. With incredible performance, custom technologies, and industry-leading power efficiency,1 M1 is not just a next step for Mac — it’s another level entirely.",
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Herman Miller Aeron",
+      "desc": "Aeron office chair revolutionized office seating.",
+      "image_0": "https://www.designcabinet.biz/media/image/0b/95/99/xaeron-stuhl-new-aeron-remastered-side.jpg.pagespeed.ic.BD776cMgen.jpg",
+      "image_1": "https://cdn11.bigcommerce.com/s-rb8ue6qv0m/images/stencil/1000x1000/products/1205/7705/AeronLoadedGrayPosture-2__94034.1510272988.1280.1280__93781.1622653330.jpg?c=2",
+      "image_2": "https://www.designcraft.net.au/sites/default/files/styles/furniture_image_full_page_gallery/public/2020-12/HM_Aeron_graphite_LR.jpg?itok=-9TwvAaU",
+      "price": 1645,
+      "detail": "Breathable fabric keeps you cool and comfortable.Three chair sizes mean the most comfort to the largest range of users.Adjustable PostureFit SL pads provide lumbar support and stabilize the base of the spine. Harmonic Tilt supports the way you naturally move, for a smooth and balanced recline. Fully adjustable arms (height, depth, and angle) allow for a custom fit. Composed of recycled materials, the production of Aeron in Onyx helps divert plastic waste from the ocean.",
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "GamaKay LK67 Mechanical Keyboard",
+      "desc": "67 Keys RGB Gateron Switch 65% Keyboard",
+      "image_0": "https://imgaz.staticbg.com/images/oaupload/banggood/images/0D/60/fbde3bc6-43b7-4263-8148-71308939edb4.jpg.webp",
+      "image_1": "https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/01/B7/4d0b7416-33df-4b42-81c8-eebd40ae09c4.jpg.webp",
+      "image_2": "https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/EB/4E/437e98d3-8902-4985-a427-4e41121871aa.jpg.webp",
+      "price": 85,
+      "detail": "Triple mode connection, equipped with a detachable USB type-c cable and a 2.4GHz receiver, can support 3 bluetooth devices / 1 2.4GHz device / 1 wired devices. Knob in the top right-hand corner is multi-function with one button: Volume+ / Volume- / Play / Stop. Equipped with hot swappable terminals, you could install the MX 3 pin / 5 pin switches directly without soldering, easily build up your own mechanical keyboard. With automotive grating design and side light RGB lighing effects, the keyboard kit is not only practical, but also the perfect desktop decorations. Gateron switches, 50 million clicking life for long time use. PBT XDA profile color matching keycaps, ergonomic gradient design.",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "",
+      "desc": "",
+      "image_0": "",
+      "image_1": "",
+      "image_2": "",
+      "price": 0,
+      "detail": "",
+      "categoryId": 3
+    },
+    {
+      "id": 6,
+      "name": "",
+      "desc": "",
+      "image_0": "",
+      "image_1": "",
+      "image_2": "",
+      "price": 0,
+      "detail": "",
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "",
+      "desc": "",
+      "image_0": "",
+      "image_1": "",
+      "image_2": "",
+      "price": 0,
+      "detail": "",
+      "categoryId": 3
+    },
+    {
+      "id": 8,
+      "name": "",
+      "desc": "",
+      "image_0": "",
+      "image_1": "",
+      "image_2": "",
+      "price": 0,
+      "detail": "",
+      "categoryId": 3
+    },
+    {
+      "id": 9,
+      "name": "",
+      "desc": "",
+      "image_0": "",
+      "image_1": "",
+      "image_2": "",
+      "price": 0,
+      "detail": "",
+      "categoryId": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "keyboards"
+    },
+    {
+      "id": 2,
+      "name": "laptops"
+    },
+    {
+      "id": 3,
+      "name": "chairs"
+    }
+  ]
+}

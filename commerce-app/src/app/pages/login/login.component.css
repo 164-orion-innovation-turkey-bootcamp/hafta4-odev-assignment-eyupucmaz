@@ -1,0 +1,18 @@
+.login-img {
+  /* max-width: 50%; */
+}
+.login-btn {
+  border-color: transparent;
+  background: #6640bf;
+  /* width: 9rem; */
+}
+.login-btn:focus{
+  box-shadow: 0 0 0 .25rem #6640bf80;
+}
+
+.signup-link {
+  cursor: pointer;
+}
+.signup-link:hover {
+  filter: brightness(80%);
+}
